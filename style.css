@@ -1,0 +1,89 @@
+*{
+    font-family: cursive;
+font-style: oblique;
+font-stretch: extra-condensed;
+
+}
+
+#logo{
+    text-align: center;
+    position: fixed;
+  
+    overflow: scroll;
+}
+
+nav{
+/* text-align: end; */
+/* position: fixed; */
+top: 0;
+width: 100%;
+
+}
+
+
+button{
+    width: 23%;
+    height: 7%;
+    display: flexbox;
+    background: rgba(222, 184, 135, 0.307);
+    border-width: 0.21%;
+    border-color: blue;
+    border-radius: 13%;
+   
+}
+
+nav .strt{
+    color: blueviolet;
+   
+    display: inline-block;
+    text-align: centre;
+    font-size: x-large;
+   
+    top: 1%;
+    /* padding-right: 8vw; */
+
+}
+
+
+@media only screen 
+and (orientation:landscape)
+{
+nav .end{
+color: blueviolet;
+position: fixed;
+display: inline-block;
+text-align: right;
+font-size: x-large;
+
+/* padding-right: 8vw; */
+}
+
+}
+
+html{
+    background: rgba(156, 223, 201, 0.316);
+    display: block;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.594);
+    width: 100%;
+}
+
+@media only screen 
+and (max-device-width: 600px)
+ {nav .end{
+color: blueviolet;
+position: absolute;
+
+text-align: right;
+font-size: x-large;
+right: 1%;
+
+/* padding-right: 8vw; */
+
+
+}}
